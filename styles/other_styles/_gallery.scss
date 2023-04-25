@@ -1,17 +1,18 @@
 .gallery{
-    // border: 1px solid red;
+    border: 1px solid red;
     // height: 200px;
-    padding: 80px 80px 160px 80px;
+    padding: 40px 80px 160px 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 12px;
 
     .left-side{
-        width: 71%;
+        width: 69%;
         // border: 1px solid;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
 
         .img-with-title{
             display: flex;
@@ -20,7 +21,7 @@
             justify-content: space-between;
             width: 290px;
             // height: 291.2px;
-            gap: 20px;
+            gap: 25px;
             // border: 1px solid red;
             img{
                 width: 100%;
@@ -108,7 +109,68 @@
     }
 
     .right-side{
-        width: 27%;
-        border: 1px solid green;
+        width: 30%;
+        // border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+            width: 201px;
+            height: 39px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            letter-spacing: -0.04em;
+            color: #000000;
+        }
+
+        .img-text-box{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            border: 1px solid;
+
+            img{
+                width: 180px;
+                // height: 174.72px;
+                border-radius: 20px;
+            }
+
+            span{
+                width: calc(100%-180px);
+                display: flex;
+                border: 1px solid;
+                flex-direction: column;
+
+                h3{
+                    width: 196px;
+                    height: 56px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: -0.04em;
+                    color: #000000;
+                }
+
+                h4{
+                    width: 113px;
+                    height: 17px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    /* identical to box height */
+                    
+                    letter-spacing: -0.02em;
+                    
+                    color: rgba(0, 0, 0, 0.6);
+                }
+            }
+        }
     }
 }

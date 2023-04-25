@@ -1492,16 +1492,18 @@
 }
 
 .gallery {
-  padding: 80px 80px 160px 80px;
+  border: 1px solid red;
+  padding: 40px 80px 160px 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 12px;
 }
 .gallery .left-side {
-  width: 71%;
+  width: 69%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 .gallery .left-side .img-with-title {
   display: flex;
@@ -1509,7 +1511,7 @@
   align-items: center;
   justify-content: space-between;
   width: 290px;
-  gap: 20px;
+  gap: 25px;
 }
 .gallery .left-side .img-with-title img {
   width: 100%;
@@ -1587,8 +1589,60 @@
   color: rgba(0, 0, 0, 0.6);
 }
 .gallery .right-side {
-  width: 27%;
-  border: 1px solid green;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.gallery .right-side h2 {
+  width: 201px;
+  height: 39px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.gallery .right-side .img-text-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 1px solid;
+}
+.gallery .right-side .img-text-box img {
+  width: 180px;
+  border-radius: 20px;
+}
+.gallery .right-side .img-text-box span {
+  width: 100;
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+}
+.gallery .right-side .img-text-box span h3 {
+  width: 196px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.gallery .right-side .img-text-box span h4 {
+  width: 113px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 * {
