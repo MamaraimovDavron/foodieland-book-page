@@ -1426,6 +1426,71 @@
   font-size: 20px;
 }
 
+.blog-article {
+  padding: 80px 300px;
+}
+.blog-article h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.blog-article p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.blog-article .input-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.blog-article .input-box input {
+  width: 700px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+.blog-article .input-box input::-webkit-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 32px;
+}
+.blog-article .input-box button {
+  background: #000000;
+  border-radius: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  border: 0;
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  right: 20px;
+}
+
 * {
   padding: 0;
   margin: 0;
